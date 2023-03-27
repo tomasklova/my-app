@@ -1,13 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;500;800&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+    padding-top: 60px;
+	   font-family: 'Heebo', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.registerBox {
+
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    max-width: 350px;
+    max-height: 800px;
+    background-color: rgb(209, 243, 238);
+    box-shadow:rgba(47, 51, 50, 0.61) 0 5px 5px;
+
+}
+
+h1 {
+				font-weight: bolder;
+	   text-align: center;
+	   letter-spacing: 5px;
+	   font-size: 40px;
+	
+}
+
+input {
+
+    height: 50px;
+    width: 100%;
+    margin: auto;
+				margin-bottom: 30px;
+    border: none;
+    font-size: 20px;
+
+}
+
+input[type=submit] {
+    
+    margin-top: 30px;
+    height: 50px;
+    background-color: rgb(102, 206, 171);
+    color: white;
+    font-size: 25px;
+    border: none;
+	   font-weight: bold;
+
+}
+
+input[type=submit]:hover {
+    
+    background-color: rgb(80, 175, 144);
+
 }
